@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-vue3-dev",
+  "name": "eslint-plugin-vue3",
   "version": "0.0.0",
   "description": "Extra linting rules for clean Vue3",
   "keywords": [
@@ -10,9 +10,9 @@
   "author": "PathScale (https://vue3.dev/)",
   "contributors": [],
   "main": "lib/index.js",
-  "repository": "https://github.com/pathscale/eslint-plugin-vue3-dev",
-  "homepage": "https://github.com/pathscale/eslint-plugin-vue3-dev",
-  "bugs": "https://github.com/pathscale/eslint-plugin-vue3-dev/issues",
+  "repository": "https://github.com/pathscale/eslint-plugin-vue3",
+  "homepage": "https://github.com/pathscale/eslint-plugin-vue3",
+  "bugs": "https://github.com/pathscale/eslint-plugin-vue3/issues",
   "scripts": {
     "lint": "eslint --report-unused-disable-directives .",
     "test": "mocha tests --recursive"
