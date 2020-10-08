@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-vue3",
+  "name": "@pathscale/eslint-plugin-vue3",
   "version": "0.0.1",
   "description": "Extra linting rules for clean Vue3",
   "keywords": [

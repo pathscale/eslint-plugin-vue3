@@ -1,6 +1,7 @@
-# eslint-plugin-vue3
+# @pathscale/eslint-plugin-vue3
 
-linting rules to help enforce our rather limited view of the world.. Highly opinionated and not for everyone
+linting rules to help enforce our rather limited view of the world.. Highly
+opinionated and not for everyone
 
 Currently requires `eslint-plugin-vue`.
 
@@ -12,24 +13,24 @@ You'll first need to install [ESLint](http://eslint.org):
 $ npm i eslint --save-dev
 ```
 
-Next, install `eslint-plugin-vue3`:
+Next, install `@pathscale/eslint-plugin-vue3`:
 
 ```
-$ npm install eslint-plugin-vue3 --save-dev
+$ npm install @pathscale/eslint-plugin-vue3 --save-dev
 ```
 
 **Note:** If you installed ESLint globally (using the `-g` flag) then you must
-also install `eslint-plugin-vue3` globally.
+also install `@pathscale/eslint-plugin-vue3` globally.
 
 ## Usage
 
-Add `vue3` to the plugins section of your `.eslintrc` configuration file.
-You can omit the `eslint-plugin-` prefix:
+Add `@pathscale/vue3` to the plugins section of your `.eslintrc` configuration
+file. You can omit the `eslint-plugin-` prefix:
 
 ```json
 {
     "plugins": [
-        "vue3"
+        "@pathscale/vue3"
     ]
 }
 ```
@@ -41,7 +42,7 @@ shown below.
 ```js
 {
     "rules": {
-        "vue3/v-directive": ["error", {
+        "@pathscale/vue3/v-directive": ["error", {
             // Add AST that should always be allowed
             "safe": [
                 "Literal",
@@ -78,4 +79,4 @@ shown below.
 
 ## Supported Rules
 
-- `vue3/v-directive` - See example above
+- `@pathscale/vue3/v-directive` - See example above
